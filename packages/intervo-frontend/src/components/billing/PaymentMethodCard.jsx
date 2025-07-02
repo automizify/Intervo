@@ -1,3 +1,5 @@
+import { Button } from "@/components/ui/button";
+
 export default function PaymentMethodCard(props) {
     return (
       <div className="border rounded-lg p-4 flex justify-between items-center">
