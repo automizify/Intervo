@@ -46,7 +46,7 @@ import { useCallbackRef } from "@/hooks/useCallbackRef";
 import { useBeforeUnload } from "@/hooks/useBeforeUnload";
 import { useNavigationOverride } from "@/hooks/useNavigationOverride";
 import { Skeleton } from "@/components/ui/skeleton";
-import IntervoApp from "intervo-widget/src/App";
+import { IntervoApp } from "intervo-widget";
 import OnboardingOverlay from "@/components/playground/OnboardingOverlay";
 import {
   Tooltip,

@@ -61,7 +61,9 @@ export const init = (widgetId, containerId) => {
 };
 
 // Named exports for use in React applications
-export { App, WidgetProvider };
+export { App as IntervoApp, WidgetProvider };
+// Now you can: import { IntervoApp } from "intervo-widget";
+
 
 // Default export for UMD/embedding via init function
 export default { init };
