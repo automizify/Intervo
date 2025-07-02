@@ -9,4 +9,4 @@ COPY . .
 
 EXPOSE 3001
 
-CMD ["npm", "run", "start", "--workspace=intervo-backend"]
+CMD ["npm", "run", "start"]
